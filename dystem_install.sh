@@ -124,15 +124,23 @@ masternodeprivkey=$COINKEY
 addnode=45.32.236.168
 addnode=45.76.251.25
 addnode=149.28.146.122
-addnode=80.240.31.71
-addnode=104.238.189.152
-addnode=149.28.232.166
-addnode=45.63.54.162
-addnode=108.61.215.68
-addnode=207.148.121.118
-addnode=207.148.80.150
-addnode=202.182.125.85
-addnode=217.163.29.93
+addnode=80.240.29.189
+addnode=45.76.131.65
+addnode=149.28.145.241
+addnode=107.191.48.56
+addnode=207.148.127.6
+ addnode=107.191.53.165
+addnode=45.32.198.53
+addnode=149.28.179.150
+addnode=45.32.195.217
+addnode=104.207.130.26
+addnode=108.61.194.89
+addnode=95.179.129.73
+addnode=104.238.186.44
+addnode=149.28.38.188
+addnode=45.32.151.239
+addnode=209.250.231.163
+addnode=209.250.254.200
 EOF
 }
 
