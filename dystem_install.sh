@@ -6,7 +6,7 @@ CONFIGFOLDER='/root/.dystem'
 COIN_DAEMON='dystemd'
 COIN_CLI='dystem-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/Dystem/dystem-core/releases/download/V1.0.6/mnbin.tar.gz'
+COIN_TGZ='https://github.com/Dystem/dystem-core/releases/download/v1.1.3/mnbin.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Dystem'
 COIN_PORT=65443
@@ -116,7 +116,7 @@ function update_config() {
   sed -i 's/daemon=1/daemon=0/' $CONFIGFOLDER/$CONFIG_FILE
   cat << EOF >> $CONFIGFOLDER/$CONFIG_FILE
 logintimestamps=1
-maxconnections=256
+maxconnections=16
 #bind=$NODEIP
 masternode=1
 externalip=$NODEIP:$COIN_PORT
